@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+        <title></title>
+        <link rel="stylesheet" href="DEMO.css"></link>
+    </head>
+    <body style="background: #F9972C; overflow-x: hidden;">
+        <img id="webLogo" src="image/导入图片" style="display: block;"/>
+        <input id="userID" placeholder="定制您的用户名" maxlength="10" style=" display: block; outline: none; text-align: center;"/>            
+        <button id="submitButton" type="button" style="display: block;">确定</button>
+
+        <div id="title1" style="color: #264d59; display: none">
+            <img src="image/导入图片" width="71px" height="40px" style="align-items: center;"/>
+        </div>
+        <textarea class="container" id="chatBox" style="display: none; outline: none;" readonly></textarea>
+        <div id="title2" style="display: none; outline: none;">精选歌曲 放松一刻</div>
+        <button id="playMusic" style="display: none; outline: none;" onclick="playmusic()"><img width="25px" height="25px" src="image/导入图片"/></button>
+        <button id="pauseMusic" style="display: none; outline: none;" onclick="pausemusic()"><img width="25px" height="25px" src="image/导入图片"/></button>
+        <textarea  class="container" id="inputBox" style="display: none; outline: none;"></textarea>
+        <button class="container" type="button" id="sendButton" style="display: none">发送</button>
+        <p id="title3" style="color: #264d59; display: none; font-size: 15px;">//将意见与建议发送至<a href="mailto:邮箱地址" style="color: #43978d;">邮箱</a></p>
+
+        <script src="DEMO.js"></script>
+    </body>
+</html>

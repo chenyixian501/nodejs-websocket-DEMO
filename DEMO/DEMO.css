@@ -1,0 +1,91 @@
+html,body{
+    height:100%;
+}
+#webLogo{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+#userID{
+    background-color: white;
+    color: #B4492F;
+    width: 35%;
+    height: 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#submitButton{
+    width: 35%;
+    height: 5%;
+    border: 4px red;
+    border-radius: 10px;
+    background: #B4492F;
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#inputBox{
+    background:#f2a490;
+    width:99%;
+    height:15%;
+    border: 4px solid #f2a490;
+    border-radius: 5px;
+    color: #478ba2;
+    
+    font-size:15px;
+    font-weight: bold;
+}
+#chatBox{
+    background: #f2a490;
+    width:99%;
+    height:60%;
+    border: 4px solid #f2a490;
+    border-radius: 5px;
+    color:#478ba2;
+    
+    font-size:15px;
+    font-weight: bold;
+}
+#sendButton{
+    float:right;
+    width:100px;
+    height:30px;
+    border: 4px red;
+    border-radius: 10px;
+    background: #B4492F;
+    color:white;
+    font-size:10px;
+}
+#title1{
+    width: 100%;
+    height: 42px;
+}
+#title2{
+    height: 20px;
+    font-size: 15px;
+    color: #264d59;
+}
+#playMusic{
+    background-color: #F9972C;
+    border: 4px red;
+    width: 35px;
+    height: 35px;
+}
+#pauseMusic{
+    background-color: #F9972C;
+    border: 4px red;
+    width: 35px;
+    height: 35px;
+}
