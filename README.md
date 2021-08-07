@@ -1,0 +1,2 @@
+# nodejs_websocket_DEMO
+利用nodejs及websocket实现简易网页消息发送与广播
